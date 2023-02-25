@@ -1,0 +1,98 @@
+nav{
+    background-color:rgb(240, 237, 237);
+    padding-top: 10px;
+   
+}
+nav a{
+ text-decoration: none; 
+
+}
+nav a{
+    color: black;
+     }
+.navmain{
+        font-weight: 700 !important;
+        padding-left: 10px;
+     }
+.navmain1{
+        font-weight: 640 !important;
+     }
+     .navmain2{
+        font-weight: 300;
+
+     }
+     nav span{
+        padding-right: 16px;
+     }
+     h1{
+        font-weight: 650 !important;
+     }
+     h2{
+        font-weight: 600 !important;
+     }
+     .navbar{
+        justify-content: start;
+     }
+     .carousel-inner img{
+        height: 300px !important;
+     }
+    
+     .card img{
+      height: 200px;
+      width: 100%;  
+     }
+     .col{
+        border: 1px solid black; 
+        border-radius: 5px;   
+        padding-bottom: 10px; 
+        margin: 20px; 
+        width: 350px !important;
+        padding: 0px !important;
+     }
+     .btn{
+        background-color: rgb(52, 52, 162);
+        color: aliceblue;
+     }
+     .cardin{
+        padding: 0px 20px 20px 20px;
+     }
+     input{
+        display: block;
+        width: 100%;
+     }
+   table{
+    width: 100%;
+    border-collapse: none;
+    
+    
+   }
+   td, th{
+    border-bottom: 1px solid rgb(228, 217, 217);
+    padding:10px !important;
+
+   }
+   th{
+    border-top:1px solid rgb(228, 217, 217) ;
+   }
+   .box1{
+    height: 60px !important;
+   }
+   @media(max-width:900px)  {
+   
+    .row{
+        display: flex;
+        flex-flow: column wrap; 
+        justify-content: center;
+        align-items: center;
+
+    }
+    .col{
+        width: 100% !important;
+    }
+    .card img{
+        height: 400px ;
+        width: 100%;  
+       }
+       
+       
+   }
